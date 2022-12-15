@@ -1,0 +1,23 @@
+{
+  "name": "saas_landing_page_tailwind_css",
+  "version": "1.0.0",
+  "description": "tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greeneley/saas_landing_page_tailwind_css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greeneley/saas_landing_page_tailwind_css/issues"
+  },
+  "homepage": "https://github.com/greeneley/saas_landing_page_tailwind_css#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
