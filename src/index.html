@@ -11,32 +11,67 @@
 
 <body>
     <!-- header -->
-    <section>
-        <div class="flex justify-center items-center bg-blue-600 w-full h-120">
-            <!-- logo -->
-            <div class="mr-12">
-                <img src="./img/header_logo.png" alt="">
+    <nav class="flex justify-center items-center py-5 bg-blue-600 w-full h-120">
+        <!-- logo -->
+        <div class="w-full ml-96 z-20">
+            <img src="./img/header_logo.png" alt="">
+        </div>
+        <!-- navigation -->
+        <ul class="flex flex-row justify-between z-20 w-custom items-center h-auto mr-32 cursor-pointer">
+            <li class="m-0 text-white font-semibold c-link" href="#">Home</li>
+            <li class="m-0 text-white font-semibold c-link" href="#">Updates</li>
+            <li class="m-0 text-white font-semibold c-link" href="#">Services</li>
+            <li class="m-0 text-white font-semibold c-link" href="#">Features</li>
+            <li class="m-0 text-white font-semibold c-link" href="#">About Us</li>
+        </ul>
+        <!-- buttons -->
+        <div class="flex justify-center items-center mr-10">
+            <div class="px-5 flex flex-row">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 text-white font-bold">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+                <p class="text-white mx-3 font-bold">EN</p>
             </div>
-            <!-- navigation -->
-            <ul class="flex flex-row mx-5 my-5">
-                <li class="mx-4 text-white">Home</li>
-                <li class="mx-4 text-white">Updates</li>
-                <li class="mx-4 text-white">Services</li>
-                <li class="mx-4 text-white">Features</li>
-                <li class="mx-4 text-white">About Us</li>
-            </ul>
-            <!-- buttons -->
-            <div class="flex flex-row">
+            <div class="mx-4 bg-white border border-transparent px-5 py-2 rounded-lg">
+                <button class=" text-blue-600 hover:bg-gray-300 hover:border-transparent transition-all">LogIn</button>
+            </div>
+        </div>
+    </nav>
+    <!-- introduction -->
+    <section>
+        <!-- container -->
+        <div class="w-full h-intro bg-cover bg-no-repeat relative flex flex-row-reverse"
+            style="background-color: black;">
+            <!-- image -->
+            <div>
+                <img src=" ./img/intro.png" alt="">
+            </div>
+            <!-- text -->
+            <div class="flex flex-col">
+                <!-- title -->
                 <div>
-                    <p>EN</p>
+                    <h1 class="text-white">Teams build
+                        better products
+                        with Align</h1>
                 </div>
+                <!-- desc -->
                 <div>
-                    <p>Login</p>
+                    <p class="text-gray-500">
+                        Align is constantly improving to move forward through dashboard, statistics, data and verify
+                        and
+                        superior human resources.
+                    </p>
+                </div>
+                <!-- button -->
+                <div>
+                    <button>Get Started</button>
                 </div>
             </div>
         </div>
+
     </section>
-    <!-- introduction -->
     <!-- content -->
     <!-- feature -->
     <!-- contact -->
