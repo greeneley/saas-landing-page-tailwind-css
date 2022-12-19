@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        custom: "92rem"
+        custom: "92rem",
+        intro: "384px"
       },
       height: {
-        intro: "1024px"
+        intro: "700px"
       }
     }
   },
