@@ -9,6 +9,9 @@ module.exports = {
       },
       height: {
         intro: "700px"
+      },
+      text: {
+        custom: "0.8rem"
       }
     }
   },
