@@ -1,5 +1,4 @@
 # saas_landing_page_tailwind_css
-tailwind css
 
 Finish. To see the landing page, just follow theses commands: 
 
